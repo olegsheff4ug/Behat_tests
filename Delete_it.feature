@@ -4,7 +4,7 @@ Feature: Applying shipping rules applying
   I need to be able change shipping methods rules and orders
 
   Background:
-    Given Admin User has “Shipping Rules” Full permissions
+    Givon Admin User has “Shipping Rules” Full permissions
     And Buyer User with Edit Shipping Address permissions
     And Shopping Rule Flat Rate Shipping Cost = 1.5
     And Shopping Rule Flat Rate Type = per Order by default
